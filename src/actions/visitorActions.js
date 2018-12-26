@@ -1,6 +1,6 @@
 export const addVisitor = (visitor) => {
     console.log(visitor);
-    fetch('/visitors/', {
+    fetch('visitors/', {
         method: 'post',
         headers: {
             'Accept': 'application/json, text/plain, */*',
