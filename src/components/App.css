@@ -1,0 +1,11 @@
+.App {
+  padding-top: 20px;
+}
+
+.form-control {
+	max-width: 400px;
+}
+
+input {
+  margin: 5px;
+}
