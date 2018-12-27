@@ -12,6 +12,7 @@ class Visitor extends Component {
 		    	message: ''
 		  	}
 		}
+		//this.checkIn = this.checkIn.bind(this);
 	}
 
 	checkIn() {
