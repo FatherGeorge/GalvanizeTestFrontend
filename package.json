@@ -20,5 +20,6 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
-  "proxy": "https://fantastic-four-visitors-pr-1.herokuapp.com/"
+  "proxy": "https://fantastic-four-visitors-pr-1.herokuapp.com",
+  "homepage": "."
 }
