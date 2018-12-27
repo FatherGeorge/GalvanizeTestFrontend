@@ -4,8 +4,9 @@ export const addVisitor = (visitor) => {
         method: 'post',
         headers: {
             'Accept': 'application/json, text/plain, */*',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
         },
         body: JSON.stringify(visitor)
-    });
+    }).then(res => res.json());
 };
